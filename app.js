@@ -61,14 +61,14 @@ function addRow(contact) {
     var row = tcontent.insertRow();
 
     var nameCell = row.insertCell();
-    nameCell.setAttribute('data-label', "Name");
-    nameCell.innerHTML = contact.name;
+    nameCell.setAttribute('data-label', "A");
+    nameCell.innerHTML = contact.A;
 
     var addressCell = row.insertCell();
-    addressCell.setAttribute('data-label', "Address");
-    addressCell.innerHTML = contact.address;
+    addressCell.setAttribute('data-label', "B");
+    addressCell.innerHTML = contact.B;
 
     var emailCell = row.insertCell();
-    emailCell.setAttribute('data-label', "Email");
-    emailCell.innerHTML = contact.email;
+    emailCell.setAttribute('data-label', "C");
+    emailCell.innerHTML = contact.C;
 }
